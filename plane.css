@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#contentBox{
+	width: 450px;
+	height: 750px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+#startBox{
+	width: 450px;
+	height: 750px;
+	background: url(image/开始背景.png) no-repeat;
+	background-size: 100%;
+}
+#startBtn{
+	width: 120px;
+	height: 60px;
+	position: absolute;
+	bottom: 60px;
+	left: 50%;
+	margin-left: -60px;
+	font-size: 20px;
+	background:url(image/background_1.png);
+	outline: none;
+}
+#mainBox{
+	width: 450px;
+	height: 750px;
+	background: url(image/background_1.png) repeat-y;
+	background-size: 100%;
+}
+#mainBox img {
+	position: absolute;
+}
+#score,#endBox{
+	width: 240px;
+	height: 160px;
+	background:url(image/background_1.png);
+	position: absolute;
+	top: 50%;
+	margin-top: -80px;
+	left: 50%;
+	margin-left: -120px;
+	text-align: center;
+	font-size: 20px;
+	border:1px solid #888;
+	padding: 10px;
+	display: none;
+}
+#fen{
+	width: 150px;
+	height: 50px;
+	font-size: 24px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 20px;
+	border:1px solid #888;
+	line-height: 50px;
+}
+#zhuye,#continueBtn,#againBtn{
+	width: 120px;
+	height: 30px;
+	background:#ccc;
+	margin-top: 20px;
+	outline: none;
+	border-radius: 60px;
+}
+#stop{
+	width: 240px;
+	height: 40px;
+	text-align: center;
+	font-size: 24px;
+}
